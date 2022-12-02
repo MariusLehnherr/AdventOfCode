@@ -5,9 +5,9 @@ max_cal = 0
 list_calories = []
 
 for line in file:
-    line = line.replace("\n", "")
-    if line != "":
-        elf_calories += int(line)
+    newline = line.replace("\n", "")
+    if newline != "":
+        elf_calories += int(newline)
     else:
         if elf_calories > max_cal:
             max_cal = elf_calories
