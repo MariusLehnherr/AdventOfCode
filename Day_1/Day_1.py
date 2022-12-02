@@ -1,5 +1,4 @@
 file = open('Day_1.txt', 'r')
-
 elf_calories = 0
 max_cal = 0
 list_calories = []
@@ -19,3 +18,4 @@ for line in file:
 list_calories.sort()
 print(max_cal)
 print(list_calories[-1] + list_calories[-2] + list_calories[-3])
+file.close()
